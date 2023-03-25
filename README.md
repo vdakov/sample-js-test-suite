@@ -47,17 +47,20 @@ As mentioned above, such tests are not in the test suite due to lack of knowledg
 *The javascript application is in actuality a very simplified function only to illustrate the testing principles I desired*
 
 # How to run the test suite:
-To run the test suite, one needs to ensure they have Node.js installed on their computer. Once the entire repository has been downloaded, one simply needs to run the command.
+To run the test suite, one needs to ensure they have Node.js and the testing framework Jest installed on their computer. 
+
+To install Jest, you will have to run: 
+ ```css
+npm install --save-dev jest
+```
+Afterward, to run the test suite, you would need to run the command
 ```css
 npm test
 ```
 which is going to look for all the `*.test.js` files in the current directory.
 
-If any issues arise, make sure all dependencies are installed, in this case Jest. To install it, you will have to run: 
-```css
-npm install --save-dev jest
-```
-after which everything should work just fine. 
+If any issues arise, make sure all Node.js is installed along with Jest. 
+
 
 
 
