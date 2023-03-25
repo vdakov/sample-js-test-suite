@@ -65,8 +65,10 @@ npm test
 ```
 which is going to look for all the `*.test.js` files in the current directory.
 
-If any issues arise, make sure all Node.js is installed along with Jest. 
-
+If any issues arise, make sure Node.js is installed along with Jest. You can also try running:
+```css
+npm run test
+```
 
 *And remember, testing only proves the presence of bugs, not their absence ;)* 
 
